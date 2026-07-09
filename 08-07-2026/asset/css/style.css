@@ -1,0 +1,34 @@
+/* div{
+  height: 400px;
+  width:100%;
+  background: lightblue url(../images/back.jpg) no-repeat;
+  background-color: lightblue;
+  background-image: url(../images/back.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-clip:padding-box;
+  background-origin: content-box;
+  background-attachment: fixed;
+} */
+
+/* .back_text{
+  font-size: 100px;
+  font-weight: bold;
+  background-image: url(../images/back.jpg);
+  color: transparent;
+  background-clip: text;
+  background-size: cover;
+  background-position: bottom;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.back_img{
+  height: 100vh;
+  width: 100%;
+  /* background-image: url('../images/back.jpg') , linear-gradient(red , blue) ; */
+   background-image:url(../images/pexels.jpg) , url('../images/back.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: luminosity;
+}
