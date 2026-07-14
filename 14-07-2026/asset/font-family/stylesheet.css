@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Playwrite ID';
+    src: url('PlaywriteID-Regular.eot');
+    src: url('PlaywriteID-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PlaywriteID-Regular.woff2') format('woff2'),
+        url('PlaywriteID-Regular.woff') format('woff'),
+        url('PlaywriteID-Regular.ttf') format('truetype'),
+        url('PlaywriteID-Regular.svg#PlaywriteID-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

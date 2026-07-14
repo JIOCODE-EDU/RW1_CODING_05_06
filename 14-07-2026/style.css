@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Css Box model */
+
+/* .box-1{
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    border:10px solid black;
+    margin: 20px;
+    box-sizing: content-box;
+}
+
+.box-2{
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    border:20px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+} */
+
+/* Css Flex-Box Properties */
+
+.maindiv{
+    display: flex;
+    height: 90vh;
+}
+
+.maindiv div{
+    /* flex-grow: 1; */
+    flex-basis: 100px;
+    border:1px solid black;
+}
