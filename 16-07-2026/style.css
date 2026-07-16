@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS TRANSFORM  */
+
+/* .maindiv{
+    padding: 20px;
+    background-color: gray;
+    border:1px solid black;
+}
+
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border:1px solid black;
+} */
+
+.maindiv:hover .box-1{
+    /* transform: translate(400px , 400px); */
+    /* transform: translateX(500px); */
+    /* transform: translateY(500px); */
+    /* transform: rotate(360deg); */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: scale(0.5);
+    transform: scaleX(0.5);
+    transform: scaleY(0.5);
+    transform: skew(45deg , 45deg);
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform-origin: right;
+    background-color: green;
+    color:white;
+    font-size: 30px;
+
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-timing-function: steps(10); */
+}
+
+/* nav{
+    background-color: gray;
+    position: fixed;
+    position: sticky;
+    top: 100px;
+    width: 100%;
+} */
+
+/* nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding:20px;
+    color:white;
+    font-weight:bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.back_img{
+    background-image: url(./asset/images/back.jpg);
+} */
+
+.maindiv{
+    height: 600px;
+    width: 1200px;
+    background-color: gray;
+    border:1px solid black;
+    position: relative;
+}
+
+.maindiv div{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+}
+
+.box-1{
+    position: absolute;
+    right:0;
+}
+.box-2{
+    position: absolute;
+    bottom: 0;
+}
+.box-3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.box-4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.box-5{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.box-6{
+    position: absolute;
+    right:0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.box-7{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+.box-8{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.box-9{
+    position: absolute;
+}
