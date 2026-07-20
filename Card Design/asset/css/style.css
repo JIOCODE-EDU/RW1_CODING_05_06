@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CSS Card */
+
+section{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.card{
+    max-width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.card_img img{
+    width: 100%;
+}
+
+.card_text{
+    padding: 10px;
+    div{
+        color:rgb(130, 129, 129);
+        font-weight: bold;
+    }
+}
+
+
+.card_text p:nth-child(2){
+        font-weight: bold;
+        margin-block:10px;
+}
+
+.card_text p:nth-child(3){
+        font-size: 12px;
+        margin-block:10px;
+        color:rgb(68, 68, 68);
+        font-weight: bolder;
+}
+
+.card_text span {
+    font-size: 12px;
+        color:rgb(68, 68, 68);
+        font-weight: bolder;
+        a{
+            text-decoration: none;
+            color:rgb(255, 71, 101)
+        }
+}
