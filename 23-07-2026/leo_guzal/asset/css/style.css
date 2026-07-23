@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* leo_guzal start */
+
+/* Header Section */
+
+/* common-css */
+
+* , *:after , *:before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     font-family: "Raleway", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+/* topbar */
+
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    color:white;
+}
+
+.topbar_icons{
+    display: flex;
+}
+
+.topbar_icons div:nth-child(1) p span i {
+    color:white
+}
+
+.topbar_icons div:nth-child(2) span i {
+    color:white
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_items{
+    list-style: none;
+    display: flex;
+    gap:30px;
+    font-weight: bold;
+}
+
+.nav_items li a {
+    color:black;
+}
+
+.nav_items li:nth-child(1) a:nth-child(1){
+    color:palevioletred;
+}
+
+.nav_icons{
+    display: flex;
+}
+

@@ -1,0 +1,20 @@
+/* leo_guzal start */
+
+/* Header Section */
+
+/* common-css */
+
+* , *:after , *:before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
